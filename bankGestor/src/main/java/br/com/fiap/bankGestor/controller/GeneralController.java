@@ -8,7 +8,7 @@ public class GeneralController {
     
     @GetMapping("/")
     public String index(){ 
-        return "Nome Projeto: Bank Gestor.\nIntegrante 1: Felipe Levy Stephens Fidelix;\nIntegrante 2: Samir Hage Neto;";
+        return "Nome Projeto: Bank Gestor.\nNome: Felipe Levy Stephens Fidelix;\nRM: 556426;";
     }
 
 }

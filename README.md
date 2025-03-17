@@ -3,6 +3,18 @@ CP1 para a materia de java advanced fiap. Criar uma API para gestão de um banco
 
 Objetivos:
 
+1.Crie um endpoint para o path “/”
+que retorna uma String com o nome
+do projeto e os nomes dos integrantes
+da equipe.
+
+2.Crie um endpoint para cadastrar uma
+conta. A conta possui número,
+agência, nome do titular, cpf do
+titular, data de abertura, saldo inicial,
+ativa (s/n) e tipo (corrente, poupança
+ou salário)
+
 2.1.Os dados da conta devem ser salvos
 em memória.
 
