@@ -1,0 +1,10 @@
+[ {
+  "numero" : 1977886818041812285,
+  "agencia" : "Santander",
+  "nome" : "Felipe Levy Step",
+  "cpf" : "52596694875",
+  "dataDeAbertura" : "2025-03-15",
+  "saldoInicial" : 1000.5,
+  "status" : "Sim",
+  "tipo" : "corrente"
+} ]
