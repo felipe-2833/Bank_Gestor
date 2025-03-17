@@ -9,17 +9,17 @@ public class Conta {
     private String nome;
     private String cpf;
     private LocalDate dataDeAbertura;
-    private Double saldoInicial;
+    private Double saldo;
     private Boolean status;
     private String tipo;
-    public Conta(Long numero, String agencia, String nome, String cpf, LocalDate dataDeAbertura, Double saldoInicial,
+    public Conta(Long numero, String agencia, String nome, String cpf, LocalDate dataDeAbertura, Double saldo,
             Boolean status, String tipo) {
         this.numero = Math.abs(new Random().nextLong());
         this.agencia = agencia;
         this.nome = nome;
         this.cpf = cpf;
         this.dataDeAbertura = dataDeAbertura;
-        this.saldoInicial = saldoInicial;
+        this.saldo = saldo;
         this.status = true;
         this.tipo = tipo;
     }
@@ -38,9 +38,14 @@ public class Conta {
     public LocalDate getDataDeAbertura() {
         return dataDeAbertura;
     }
-    public Double getSaldoInicial() {
-        return saldoInicial;
+    public Double getSaldo() {
+        return saldo;
     }
+
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
+    } 
+
     public Boolean isStatus() {
         return status;
     }
